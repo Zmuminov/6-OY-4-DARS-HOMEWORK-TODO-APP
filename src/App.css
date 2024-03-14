@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #3e1ab8;
+}
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+.title {
+  margin-bottom: 20px;
+  color: white;
+}
+.inputText {
+  border: none;
+  outline: none;
+  padding: 20px;
+  width: 75%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.todoAdd {
+  width: 25%;
+  padding: 14.8px;
+  border: none;
+  cursor: grab;
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: all 0.3s;
+}
+.todoAdd:active {
+  cursor: grabbing;
+}
+ul,
+ol {
+  list-style: none;
+}
+.list {
+  margin-top: 20px;
+  width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dangerBtn {
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
