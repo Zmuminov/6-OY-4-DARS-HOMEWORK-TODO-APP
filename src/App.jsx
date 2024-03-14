@@ -46,6 +46,7 @@ function App() {
             </button>
           </div>
           <ul className="list">
+            <h3>Todo List</h3>
             {todos.map((todo, index) => (
               <li className="item" key={index}>
                 {todo}
